@@ -1,0 +1,247 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23 avr. 2017, 11:58:57
+    Author     : INFORMATIK
+*/
+.bordradius{
+    background-color:white;
+    margin:0px 30px 0px 30px;
+    border-radius:10px;
+}
+.margehaut{
+    margin-top:5px; 
+}
+.margegauche{
+    margin-left:15px; 
+}
+.margegauchep{
+    margin-left:45px; 
+}
+.margedroitp{
+    margin-right:45px; 
+}
+.margedroit{
+    margin-right:5px; 
+}
+.cadre{
+    border:2px rgb(0,146,63) solid;
+}
+.margegauche_adhesion{
+    margin-left:70px; 
+}
+.marging_padding_adhesion{
+    background: #FFF none repeat scroll 0% 0%;
+    margin:0px 30px 0px 30px;
+    padding:30px 30px 30px 30px;
+    position: relative;
+    border:1px #E0E0E0 solid; 
+    border-radius:0px;
+}
+.zonetexte{
+    background: #FFF none repeat scroll 0% 0%;
+    border: 1px solid #E0E0E0;
+    padding:10px;
+    position: relative;
+    border-radius:10px;
+}
+.margefenetre{
+    /*margin:0px -10px 20px -10px;*/
+}
+.fenetre{
+    background:#FFF none repeat scroll 0% 0%;
+    border: 1px solid #E0E0E0;
+    padding:20px;
+}
+.fenetre .fenetre-head {
+    background: #F8F8F8 none repeat scroll 0% 0%;
+    padding: 16px 20px;
+    border-bottom: 1px solid #EAEAEA;
+    color: #1F4784;
+    margin: -20px -20px 20px;
+}
+.fenetre .fenetre-title {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    background: transparent url("../images/nb-dots.png") repeat scroll 0% 0%;
+}
+.fenetre-title, .news-box .nb-header .nb-title {
+    color: rgb(0,146,63);
+}
+.fenetre .fenetre-title{
+    font-family: "Play",sans-serif;
+}
+
+/*************STYLE POUR PRODUITS ET SERVICES*******************/
+.margefenetre2{
+    /*margin:0px -10px 20px -10px;
+    margin:0px 5px 0px 0px;*/
+}
+.fenetre2{
+    background:#FFF none repeat scroll 0% 0%;
+    border: 1px solid #E0E0E0;
+    margin:0px 0px 0px 0px;
+}
+.fenetre-title2, .news-box .nb-header .nb-title {
+    color: rgb(0,146,63);
+}
+.fenetre2 .fenetre-head2 {
+    background: #F8F8F8 none repeat scroll 0% 0%;
+    border-bottom: 1px solid #EAEAEA;
+    color: #1F4784;
+}
+.fenetre2 .fenetre-title2 {
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1;
+    font-family: "Play",sans-serif;
+    margin-bottom: 0px;
+    background: transparent url("../images/nb-dots.png") repeat scroll 0% 0%;
+}
+.fenetre2 .fenetre-title3 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: "Play",sans-serif;
+    margin-bottom: 0px;
+    background: transparent url("../images/nb-dots.png") repeat scroll 0% 0%;
+}
+.fenetre3{
+    margin:0px -10px 20px -10px;
+}
+.fenetre4{
+    background:#FFF/*lavender*/ none repeat scroll 0% 0%;
+    border: 1px solid #E0E0E0;
+    border-radius:10px;
+    padding:20px;
+}
+hr.style11{
+    height:10px;
+     background: url("../images/hr-11.png") repeat-x 0 0;
+     border:0;
+     margin-top: -5px;
+}
+/*******************FIN STYLE POUR PRODUITS ET SERVICES***********************/
+
+.list-group {
+    margin-bottom: 20px;
+    padding-left: 0px;
+}
+.list-group-item:first-child {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+p.list-group-item, button.list-group-item {
+    color: #00923F ;
+    font-size: 15px;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+}
+a {
+    color:red;
+    text-decoration: none;
+}
+.fa-ul {
+    list-style-type: none;
+}
+.accordion .accordion-navigation.active > a, .accordion dd.active > a {
+    background:#ECFAFF none repeat scroll 0% 0%;
+    color: #00923F;
+    font-size: 24px;
+}
+.panel.callout h3{
+    color: red;
+}
+.accordion .accordion-navigation > a, .accordion dd > a {
+    color: red;
+    font-size: 24px;
+}
+
+/*DEBUT FOOTER*/
+.myfooter{
+    background-color: rgb(0,146,63);
+    font-size: 13px;
+    padding-bottom:5px;
+    padding-top:5px; 
+}
+.footcard {
+    box-shadow: 1px 1px 12px white; 
+    border-radius: 10px 10px 10px 10px;
+}
+.test{
+    border:1px red solid;
+}
+.couleurouge{
+    color : red;
+}
+.couleurbleue{
+    color:#0e52a0;
+}
+h5{
+    color:#0e52a0;
+}
+.footerbas{
+    background-color:rgb(0,146,63);
+    font-size: 13px; 
+    border-top:2px white solid;
+    color: white;
+    padding:3px;
+}
+.footerbas a{
+    color:yellow;
+}
+
+.separation{
+    border:2px solid red;
+}
+
+.media-object {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 1rem;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.media-object-section {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+}
+.media-object-section > :last-child {
+    margin-bottom: 0;
+}
+.thumbnail {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    border: solid 4px #fefefe;
+    border-radius: 0;
+    -webkit-box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+    box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+    line-height: 0;
+}
+.docs-component .thumbnail {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+/*FIN FOOTER*/
+

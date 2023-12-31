@@ -1,0 +1,581 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2 avr. 2017, 13:34:46
+    Author     : INFORMATIK
+*/
+/*.momizat-icon-office:before{content:"\e603"}*/
+
+body {
+    /*background-color: #e5e5e5;
+    background-color:white;
+    background: white url("../images/fonds/fond.gif") no-repeat right bottom;*/
+    background-image:url("../images/fonds/fond.gif");
+}
+
+.row {
+    /*
+    margin: 0px auto;
+    width: 100%;
+    max-width: 62.5rem;   
+    max-width:1100px;
+    max-width:74rem;*/
+    max-width:74rem;
+}
+.menuhaut-width {
+    max-width:1100px;
+}
+
+h5{
+    color:#0e52a0;
+}
+
+.centre {
+    float: center !important;
+}
+.myLogo{
+    width :70px;
+    height:70px;
+}
+.myentete{
+    margin-top:10px;
+}
+
+.entete {
+    /*margin-top:10px;
+    box-shadow: 1px 1px 12px rgb(0,146,63); 
+    border-radius: 30px 30px 0px 0px;
+    background-color:white;*/
+}
+.contenue {
+    margin-top:10px;
+    /*box-shadow: 1px 1px 12px 1px rgb(0,146,63);
+    box-shadow: 1px 1px 12px 1px rgb(0,146,63); 
+    padding:5px 5px 5px 5px;
+    background-color:white;*/
+    /*border-radius: 30px 30px 0px 0px;
+    background-image:url("../images/fonds/fond.gif");*/
+}
+.myslide {
+    box-shadow: 1px 1px 12px rgb(0,146,63); 
+    border-radius: 10px 10px 10px 10px;
+}
+.menucard {
+    box-shadow: 1px 1px 12px white; 
+    /*border-radius: 10px 10px 10px 10px;
+    margin: 2px 0px 0px 0px;*/
+}
+
+/*début menus*/
+.separateurg{
+    border-left:1px white solid;
+}
+.separateurd{
+    border-right:1px white solid;
+}
+.top-bar-section ul li > a {
+    color: #FFF;
+}
+#contact-social>a{color: rgb(0,146,63);}
+.motdirecteur {
+    background:rgb(0,146,63);
+    text-shadow: none;
+    color:white;
+    margin-bottom: 5px;
+    border-radius: 10px 10px 0px 0px;
+}
+.imgdirecteur {
+    /*background: transparent url("../images/Boss.png") no-repeat scroll center top / cover;*/
+    border-radius: 0px 0px 10px 10px;
+}
+.divimgdirecteur {
+    /*background: transparent url("../images/Boss.png") no-repeat scroll center top / cover;*/
+    border-radius: 0px 0px 10px 10px;
+    border: rgb(0,146,63) 1px solid;
+}
+.partenaire {
+    border-radius: 0px 0px 30px 30px;
+    border: rgb(0,146,63) 1px solid;
+}
+.contain-to-grid {
+    width: 100%;
+    background:rgb(0,146,63);
+}
+.top-bar {
+    background: rgb(0,146,63) none repeat scroll 0% 0%;
+
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: rgb(0,146,63) none repeat scroll 0% 0%;
+    line-height: 2.8125rem;
+    padding: 0px 0.9375rem;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+    background: rgb(0,146,63);
+}
+.top-bar-section ul li {
+    background: white none repeat scroll 0% 0%;
+}
+.top-bar-section:hover {
+    background: red;
+}
+.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
+    /*background:#1F4784;*/
+    background:rgb(0,146,63);
+    color:white;
+    border: solid 1px white;
+}
+.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button):hover {
+    background: white;
+    color:red;
+    border: solid 1px white;
+}
+/*fin menus*/
+
+
+
+/******************************************************************************* 
+    Created on : 23 avr. 2017, 11:58:57
+    Author     : INFORMATIK
+    Titre      : AutreStyles
+********************************************************************************/
+.largeur{
+    max-width:20px
+}
+.bordradius{
+    background-color:white;
+    margin:0px 30px 0px 30px;
+    border-radius:10px;
+}
+.margehaut{
+    margin-top:5px; 
+}
+.margeBas{
+    margin-bottom:20px; 
+}
+.margegauche{
+    margin-left:5px; 
+}
+.margegauchep{
+    margin-left:45px; 
+}
+.margedroitp{
+    margin-right:45px; 
+}
+.margedroit{
+    margin-right:5px; 
+}
+.cadre{
+    border:2px rgb(0,146,63) solid;
+}
+.margegauche_adhesion{
+    margin-left:70px; 
+}
+.marging_padding_adhesion{
+    background: #FFF none repeat scroll 0% 0%;
+    margin:0px 30px 0px 30px;
+    padding:30px 30px 30px 30px;
+    position: relative;
+    border:1px #E0E0E0 solid; 
+    border-radius:0px;
+}
+.zoneimage{
+    border-radius:20px;
+}
+.zonetexte{
+    /*background: #FFF none repeat scroll 0% 0%;*/
+    background-image:url("../images/fonds/fond.gif");
+    border: 1px solid #E0E0E0;
+    padding:10px;
+    position: relative;
+    border-radius:20px;
+}
+li .zonetexte{
+    /*background: #FFF none repeat scroll 0% 0%;*/
+    background-image:url("../images/fonds/fond.gif");
+    border: 1px solid #E0E0E0;
+    padding:20px;
+    margin:10px;
+    position: relative;
+    border-radius:20px;
+}
+.margefenetre{
+    /*margin:0px -10px 20px -10px;*/
+}
+.fenetrephoto{
+    /*display: block;
+    width: 200px;
+    height: 200px;
+    margin: 25px auto 0;
+    padding:2px;*/
+    background-color: #0159b3;
+    border-radius: 50%;
+    box-shadow: inset -25px -25px 25px rgba(0,0,0,.5);
+    background-image: -webkit-linear-gradient(-45deg, rgba(255,255,220,.2) 0%, transparent 100%);
+    background-image: -moz-linear-gradient(-45deg, rgba(255,255,220,.2) 0%, transparent 100%);  
+    background-image: -o-linear-gradient(-45deg, rgba(255,255,220,.2) 0%, transparent 100%);
+    background-image: -ms-linear-gradient(-45deg, rgba(255,255,220,.2) 0%, transparent 100%);
+}
+.fenetrecadre{
+    background:#FFF none repeat scroll 0% 0%;
+    border: 1px solid #E0E0E0;
+    color:white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.fenetre{
+    background:#FFF none repeat scroll 0% 0%;
+    /*border: 1px solid #E0E0E0;*/
+    padding:20px;
+    color:white;
+    font-style: italic;
+    font-weight: bold;
+}
+.fenetre .fenetre-head {
+    background: #F8F8F8 none repeat scroll 0% 0%;
+    border-bottom: 1px solid #EAEAEA;
+    color: #1F4784;
+    padding: 16px 20px;
+    margin: -20px -20px 20px;
+}
+.fenetre .fenetre-title {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    background: transparent url("../images/nb-dots.png") repeat scroll 0% 0%;
+}
+.fenetre-title, .news-box .nb-header .nb-title {
+    color: rgb(0,146,63);
+}
+.fenetre .fenetre-title{
+    font-family: "Play",sans-serif;
+}
+
+/*ACTUALITES-PRODUITS-SERVICES*/
+.marge_ActuProdServices{
+    margin:-10px;
+}
+.fenetre_autre{
+    background:#FFF none repeat scroll 0% 0%;
+    /*border: 1px solid #E0E0E0;*/
+    padding:20px;
+    color:white;
+    font-style: italic;
+    font-weight: bold;
+}
+.fenetre_autre .fenetre-head {
+    background: #F8F8F8 none repeat scroll 0% 0%;
+    border-bottom: 1px solid #EAEAEA;
+    color: #1F4784;
+    /*padding: 16px 20px;
+    margin: -20px -20px 20px;*/
+}
+.fenetre_autre .fenetre-title {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    background: transparent url("../images/nb-dots.png") repeat scroll 0% 0%;
+}
+.fenetre_autre .fenetre-title{
+    font-family: "Play",sans-serif;
+}
+/*FIN ACTUALITES-PRODUITS-SERVICES*/
+
+.fenetrefoot{
+    background:#FFF none repeat scroll 0% 0%;
+    border: 1px solid #E0E0E0;
+    padding:20px 10px 20px 0px;
+    color:white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*************STYLE POUR PRODUITS ET SERVICES*******************/
+.margefenetre2{
+    /*margin:0px -10px 20px -10px;
+    margin:0px 5px 0px 0px;*/
+}
+.fenetre2{
+    background:#FFF none repeat scroll 0% 0%;
+    border: 1px solid #E0E0E0;
+    margin:0px 0px 0px 0px;
+}
+.fenetre-title2, .news-box .nb-header .nb-title {
+    color: rgb(0,146,63);
+}
+.fenetre2 .fenetre-head2 {
+    background: #F8F8F8 none repeat scroll 0% 0%;
+    border-bottom: 1px solid #EAEAEA;
+    color: #1F4784;
+}
+.fenetre2 .fenetre-title2 {
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1;
+    font-family: "Play",sans-serif;
+    margin-bottom: 0px;
+    background: transparent url("../images/nb-dots.png") repeat scroll 0% 0%;
+}
+.fenetre2 .fenetre-title3 {
+    /*font-size: 20px;*/
+    font-weight: bold;
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: "Play",sans-serif;
+    margin-bottom: 0px;
+    background: transparent url("../images/nb-dots.png") repeat scroll 0% 0%;
+}
+.fenetre3{
+    margin:0px -10px 20px -10px;
+}
+.fenetre4{
+    background:#FFF/*lavender*/ none repeat scroll 0% 0%;
+    border: 1px solid #E0E0E0;
+    border-radius:10px;
+    padding:20px;
+}
+hr.style10{
+    height:10px;
+    background: url("../images/hr-11.png") repeat-x 0 0;
+    border:0;
+    margin-bottom: -5px;
+}
+hr.style11{
+    height:10px;
+    background: url("../images/hr-11.png") repeat-x 0 0;
+    border:0;
+    margin-top: -5px;
+}
+/*******************FIN STYLE POUR PRODUITS ET SERVICES***********************/
+
+.list-group {
+    margin-bottom: 20px;
+    padding-left: 0px;
+}
+.list-group-item:first-child {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+p.list-group-item, button.list-group-item {
+    color: #00923F ;
+    font-size: 15px;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+}
+.fenetre a{
+    /*color:red;*/
+    color:yellow;
+}
+a {
+    color:red;
+    /*color:yellow;*/
+    text-decoration: none;
+}
+.fa-ul {
+    list-style-type: none;
+}
+.accordion .accordion-navigation.active > a, .accordion dd.active > a {
+    background:#ECFAFF none repeat scroll 0% 0%;
+    color: #00923F;
+    font-size: 24px;
+}
+.panel.callout h3{
+    color: red;
+}
+.accordion .accordion-navigation > a, .accordion dd > a {
+    color: red;
+    font-size: 24px;
+}
+
+/*DEBUT FOOTER*/
+.myfooter{
+    background-color: rgb(0,146,63);
+    font-size: 13px;
+    /*padding-bottom:5px;*/
+    padding-top:5px; 
+}
+.footcard {
+    box-shadow: 1px 1px 12px white; 
+    border-radius: 10px 10px 10px 10px;
+}
+.test{
+    border:1px red solid;
+}
+.couleurouge{
+    color : red;
+}
+.couleurjaune{
+    color : yellow;
+}
+.couleurblanche{
+    color : white;
+}
+.couleurverte{
+    color : rgb(0,146,63);
+}
+.fondvert{
+    background-color:rgb(0,146,63);
+    border:0px solid rgb(0,146,63);
+}
+.couleurbleue{
+    color:#0e52a0;
+}
+h5{
+    color:#0e52a0;
+}
+.footerbas{
+    background-color:rgb(0,146,63);
+    font-size: 13px; 
+    border-top:2px white solid;
+    color: white;
+    padding:3px;
+}
+.footerbas a{
+    color:yellow;
+}
+
+.separation{
+    border:2px solid red;
+}
+.separationtop{
+    border-top:3px solid red;
+}
+.separationbottom{
+    border-bottom:3px solid red;
+}
+
+.media-object {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 1rem;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.media-object-section {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+}
+.media-object-section > :last-child {
+    margin-bottom: 0;
+}
+.thumbnail {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    border: solid 4px #fefefe;
+    border-radius: 0;
+    -webkit-box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+    box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+    line-height: 0;
+}
+.docs-component .thumbnail {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+/*FIN FOOTER*/
+
+
+/******************************************************************************* 
+    Created on : 25 Mars 2018, 18:18:00
+    Author     : INFORMATIK
+    Titre      : ihover.css
+********************************************************************************/
+.ih-item.square.effect13 {
+    overflow: hidden;
+}
+.ih-item.square {
+    /*width: 316px;
+    height: 300px;*/
+    width: auto;
+    height: auto;
+    border: 8px solid #fff;
+    position: relative;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+.ih-item, .ih-item * {
+    box-sizing: border-box;
+}
+.ih-item {
+    transition: all 0.35s ease-in-out;
+}
+
+.contain-to-grid .top-bar {
+    /*max-width: 62.5rem;*/
+    max-width: 70rem;
+}
+
+/*FORMULAIRE EMPLOI*/
+#emplois{ 
+    background: #f0f0f0; 
+    margin-bottom: 15px;
+}
+#emplois h3{
+    text-align: center; 
+    font-weight: bold;
+}
+/*FIN FORMULAIRE EMPLOI*/
+
+/*EPARGNES*/
+.fondepargne {
+    /*background: white url("../images/fonds/fond.gif") no-repeat right bottom;*/
+    background:url("../images/Produits/epargne.jpg") no-repeat right bottom;
+}
+.margepargne {
+    margin: 0px;
+}
+.accordion .accordion-navigation.active > a, .accordion dd.active > a {
+    /*background: #ECFAFF none repeat scroll 0% 0%;
+    color: #00923F;
+    font-size: 24px;
+    border:1px solid red;*/
+}
+.accordion .accordion-navigation.active > a, .accordion dd.active > a {
+    /*background: #e8e8e8;
+    color: #222222;*/
+    border:1px solid #00923F;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.accordion .accordion-navigation > a, .accordion dd > a {
+    /*color: red;
+    font-size: 24px;
+    border:1px solid blue;*/
+}
+.accordion .accordion-navigation > a, .accordion dd > a {
+    /*background: #EFEFEF;
+    color: #222222;
+    display: block;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 1rem;
+    padding: 1rem;*/
+    border:1px solid red;
+    border-radius: 10px;
+}
+.accordion .accordion-navigation > a, .accordion dd > a {
+    background: #EFEFEF;
+}
+/*FIN EPARGNES*/
